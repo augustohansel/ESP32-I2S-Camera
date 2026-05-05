@@ -2,8 +2,8 @@
 #include <WiFi.h>
 #include <Wire.h>
 
-const char* WIFI_SSID     = "Hansel 704";
-const char* WIFI_PASSWORD = "28112001";
+const char* WIFI_SSID     = "";
+const char* WIFI_PASSWORD = "";
 
 WiFiServer server(80);
 OV7670* camera    = nullptr;
